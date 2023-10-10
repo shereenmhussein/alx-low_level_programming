@@ -17,5 +17,5 @@ int main(void)
 		_putchar(str[ch]);
 	_putchar('\n');
 
-	retutn (0);
+	return (0);
 }
