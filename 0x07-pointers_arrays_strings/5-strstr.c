@@ -8,6 +8,7 @@
  *
  * Return: pointer
 */
+
 char *_strstr(char *haystack, char *needle)
 {
 	int iqe, jqe;
