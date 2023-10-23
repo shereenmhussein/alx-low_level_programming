@@ -5,7 +5,6 @@
  * *_strstr - description
  * @haystack: string
  * @needle: pointer
- *
  * Return: pointer
 */
 
