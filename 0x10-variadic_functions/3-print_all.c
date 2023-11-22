@@ -2,7 +2,7 @@
 
 /**
  * format_char - formats character
- * @separator: the string separator
+ * @separator: the string seprator
  * @ap: argument pointer
 */
 void format_char(char *separator, va_list ap)
@@ -12,7 +12,7 @@ void format_char(char *separator, va_list ap)
 
 /**
  * format_int - formats integer
- * @separator: the string separator
+ * @separator: the string seprator
  * @ap: argument pointer
 */
 void format_int(char *separator, va_list ap)
@@ -22,7 +22,7 @@ void format_int(char *separator, va_list ap)
 
 /**
  * format_float - formats float
- * @separator: the string separator
+ * @separator: the string seprator
  * @ap: argument pointer
 */
 void format_string(char *separator, va_list ap)
@@ -31,7 +31,7 @@ void format_string(char *separator, va_list ap)
 }
 /**
  * format_string - formats string
- * @separator: the string separator
+ * @separator: the string seprator
  * @ap: argument pointer
 */
 void format_string(char *separator, va_list ap)
@@ -61,6 +61,7 @@ void print_all(const char * const format, ...)
 		{"s", format_string},
 		{NULL, NULL}
 	};
+
 	va_start(ap, format);
 	while (format && format[i])
 	{
